@@ -30,7 +30,7 @@ Navigate to the terminal and open the repository then run the followimng command
 
 ## Known Bugs 
 No known bugs <br>
-Report bugs **`simonkairu14@gmail.com`**
+Report bugs:|simonkairu14@gmail.com
 
 ## Support & Contact details 
 Incase of any details on how the site can be improved email:
