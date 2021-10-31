@@ -22,7 +22,7 @@ Navigate to the terminal and open the repository then run the followimng command
 
 ## Technologies used 
 1.python3.8 <br>
-2.Heroku
+2.Heroku <br>
 3.Bootstrap
 4.HTML
 5.css
