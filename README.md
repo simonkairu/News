@@ -24,7 +24,7 @@ Navigate to the terminal and open the repository then run the followimng command
 1.python3.8 <br>
 2.Heroku <br>
 3.Bootstrap <br>
-4.HTML
+4.HTML <br>
 5.css
 6.Flask
 
