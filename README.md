@@ -35,3 +35,6 @@ Report bugs **`simonkairu14@gmail.com`**
 ## Support & Contact details 
 Incase of any details on how the site can be improved email:
 |simonkairu14@gmail.com
+
+## Licence 
+[![Licence:MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](Licence)
