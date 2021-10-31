@@ -25,7 +25,7 @@ Navigate to the terminal and open the repository then run the followimng command
 2.Heroku <br>
 3.Bootstrap <br>
 4.HTML <br>
-5.css
+5.css <br>
 6.Flask
 
 ## Known Bugs 
