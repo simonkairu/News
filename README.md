@@ -27,3 +27,7 @@ Navigate to the terminal and open the repository then run the followimng command
 4.HTML
 5.css
 6.Flask
+
+## Known Bugs 
+No known bugs 
+Report bugs **`simonkairu14@gmail.com`**
