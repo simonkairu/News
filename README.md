@@ -21,7 +21,7 @@ clone the repository using **``**
 Navigate to the terminal and open the repository then run the followimng commands:**`chmod +x start.sh` ** **`./start.sh`**
 
 ## Technologies used 
-1.python3.8
+1.python3.8 <br>
 2.Heroku
 3.Bootstrap
 4.HTML
