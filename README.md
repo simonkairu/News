@@ -29,7 +29,7 @@ Navigate to the terminal and open the repository then run the followimng command
 6.Flask
 
 ## Known Bugs 
-No known bugs 
+No known bugs <br>
 Report bugs **`simonkairu14@gmail.com`**
 
 ## Support & Contact details 
