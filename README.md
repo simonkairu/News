@@ -14,3 +14,8 @@ Click on an article and read the full article on the source website.
 
 ## Requirements 
 This application requires python3. + installed
+
+## Setup/Installation
+First make sure you have python3 installed and all the required modules .
+clone the repository using **``**
+Navigate to the terminal and open the repository then run the followimng commands:**`chmod +x start.sh` ** **`./start.sh`**
