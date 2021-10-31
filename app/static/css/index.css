@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+#now {
+    padding-bottom: 1%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(7, 7, 7, 0);
+}
+
+.panel-heading {
+    background-color: white;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.panel-default{
+    background: black;
+    color: white;
+}

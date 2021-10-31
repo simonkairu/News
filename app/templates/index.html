@@ -1,0 +1,50 @@
+
+{% extends 'base.html'%}
+{% import 'macros.html' as macro%}
+
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    {% block styles%}
+    {{ super() }}
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+    {% endblock %}
+</head>
+
+<body>
+    {% block content%}
+    <div id="now">
+        <div class="container">
+            <h4 class="text-center" style="font-weight: 700; font-size:35pt; color:darkred">Trending News</h4>
+            
+
+            <h3 style="font-weight: 700; color:white; font-size:15pt">Technology News</h3>
+           
+
+            {{ macro.displaySourceList(technology_sources)}}
+
+            <h3 style="font-weight: 700; color:white; font-size:15pt">Business News</h3>
+           
+
+            {{ macro.displaySourceList(sources)}}
+
+            
+
+            <h3 style="font-weight: 700; color:white; font-size:15pt">Sports News</h3>
+            
+
+            {{ macro.displaySourceList(sports_sources)}}
+
+            <h3 style="font-weight: 700; color:white; font-size:15pt">Entertainment News</h3>
+          
+
+            {{ macro.displaySourceList(entertainment_sources)}}
+
+        </div>
+    </div>
+    {%endblock%}
+</body>
+
+</html>
