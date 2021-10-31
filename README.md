@@ -19,3 +19,11 @@ This application requires python3. + installed
 First make sure you have python3 installed and all the required modules .
 clone the repository using **``**
 Navigate to the terminal and open the repository then run the followimng commands:**`chmod +x start.sh` ** **`./start.sh`**
+
+## Technologies used 
+1.python3.8
+2.Heroku
+3.Bootstrap
+4.HTML
+5.css
+6.Flask
