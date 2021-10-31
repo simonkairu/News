@@ -1,1 +1,4 @@
 # News
+
+## AURTHOR 
+Simon Kairu
