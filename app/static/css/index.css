@@ -2,7 +2,7 @@ body{
     background-color: black;
 }
 
-#now {
+#overlay {
     padding-bottom: 1%;
     position: relative;
     top: 0;

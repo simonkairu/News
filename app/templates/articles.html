@@ -12,7 +12,7 @@
 
 <body>
     {% block content%}
-    <div id="now">
+    <div id="overlay">
         <div class="container" style="padding-top:4%;">
             <!-- Popular movie section  -->
             <h3 style="font-weight: 700; color:white; font-size:20pt"> Top Trending Headlines</h3>
@@ -21,14 +21,14 @@
                 {% for article in article_row %}
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <a href="{{article.url}}" target="_self">
+                        <a href="{{article.url}}" target="_blank">
                             <img src="{{article.image}}" alt="{{article.title}}" class="img-responsive"
                                 styles="height:30px">
                         </a>
                         <div class="caption">
-                            <h4><a href="{{article.url}}" target="_self">{{article.title |truncate(35)}}</a></h4>
+                            <h4><a href="{{article.url}}" target="_blank">{{article.title |truncate(35)}}</a></h4>
                             <p>{{article.description | truncate(60)}}</p>
-                            <a href="{{article.url}}" target="_self"> Read More</a>
+                            <a href="{{article.url}}" target="_blank"> Read More</a>
                         </div>
                         <div class="caption">
                             <div class="footer">
