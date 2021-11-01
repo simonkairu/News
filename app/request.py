@@ -89,7 +89,7 @@ def process_articles(articles_list):
         image = article_item.get('urlToImage')
         dateAt = article_item.get('publishedAt')
 
-        # convert date from json to string and backto my specific  format
+        
         dates = datetime.strptime(dateAt, '%Y-%m-%dT%H:%M:%SZ')
         date = dates.strftime('%d.%m.%Y')
 		
